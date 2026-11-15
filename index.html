@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="format-detection" content="telephone=no">
+<title>The Grove HOA Irrigation Maps</title>
+<style>
+:root { --bg:#f4f4f1; --ink:#1c1c1c; --muted:#555; --accent:#2a3d32; --line:#c8c8c2; }
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+body {
+  min-height: 100dvh;
+  padding: max(24px, env(safe-area-inset-top)) max(20px, env(safe-area-inset-right)) max(32px, env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left));
+}
+main { max-width: 520px; margin: 0 auto; }
+h1 { font-size: 28px; line-height: 1.2; margin: 8px 0 8px; }
+p { color: var(--muted); margin: 0 0 24px; }
+.btn {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.25;
+  padding: 22px 18px;
+  border-radius: 14px;
+  margin: 0 0 14px;
+  min-height: 64px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.12);
+  -webkit-tap-highlight-color: transparent;
+}
+.btn:active { background: #1a2a22; }
+.btn span { display: block; font-size: 13px; font-weight: 600; opacity: .85; margin-top: 4px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>The Grove HOA Irrigation Maps</h1>
+  <p>Open a map in Safari to pan, zoom, and toggle stations.</p>
+  <a class="btn" href="POC12_viewer.html">POC-12<span>Layer viewer</span></a>
+  <a class="btn" href="POC3_viewer.html">POC-3<span>Layer viewer</span></a>
+</main>
+</body>
+</html>
